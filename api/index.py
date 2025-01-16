@@ -5,10 +5,8 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return 'Hello, World!'
+print("workkk")
 
 @app.route('/about')
 def about():
     return 'About'
-    test = input("what?")
-    print()
-    print(test)
