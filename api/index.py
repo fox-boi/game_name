@@ -9,3 +9,6 @@ def home():
 @app.route('/about')
 def about():
     return 'About'
+    test = input("what?")
+    print()
+    print(test)
